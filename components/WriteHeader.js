@@ -5,8 +5,6 @@ import {useNavigation} from '@react-navigation/native';
 import TransparentCircleButton from './TransparentCircleButton';
 
 function WriteHeader({onSave, onAskRemove, isEditing}) {
-  //onAskRemove,isEditing 추가
-
   const navigation = useNavigation();
   const onGoBack = () => {
     navigation.goBack();
